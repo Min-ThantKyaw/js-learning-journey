@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Multi-Feature Clock</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="clock-app">
+		<!-- Digital Clock Section -->
+		<div class="digital-clock">
+			<h1>Multi-Feature Clock</h1>
+			<div class="time-display" id="timeDisplay">00:00:00</div>
+			<div class="date-display" id="dateDisplay">Monday, January 1, 2024</div>
+			<button class="format-toggle" id="formatToggle">Switch to 24H</button>
+		</div>
+
+		<!-- Features Container -->
+		<div class="features-container">
+			<!-- Timer Section -->
+			<div class="feature-card">
+				<h2 class="feature-title">Timer</h2>
+				<div class="display timer-display" id="timerDisplay">00:00:00</div>
+				<div class="controls">
+					<button class="start" id="timerStart">Start</button>
+					<button class="stop" id="timerStop">Stop</button>
+					<button class="lap" id="timerLap">Lap</button>
+					<button class="reset" id="timerReset">Reset</button>
+				</div>
+				<div class="lap-times">
+					<h3 class="lap-title">Lap Times</h3>
+					<ul class="lap-list" id="lapList"></ul>
+				</div>
+			</div>
+
+			<!-- Countdown Section -->
+			<div class="feature-card">
+				<h2 class="feature-title">Countdown</h2>
+				<div class="display countdown-display" id="countdownDisplay">05:00</div>
+				<div class="input-group">
+					<input type="number" id="minutesInput" placeholder="Minutes" min="1" max="60" value="5">
+					<button id="setTime">Set Time</button>
+				</div>
+				<div class="controls">
+					<button class="start" id="countdownStart">Start</button>
+					<button class="stop" id="countdownStop">Pause</button>
+					<button class="reset" id="countdownReset">Reset</button>
+				</div>
+				<div class="alarm-status" id="alarmStatus">⏰ Time's Up!</div>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
