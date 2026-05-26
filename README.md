@@ -1,10 +1,10 @@
 # JS Full Stack Learning Journey
 
-**My personal journey from PHP/Laravel background to becoming a confident Modern JavaScript Full-Stack Developer.**
+**My personal journey from PHP/Laravel background to becoming a Modern JavaScript Full-Stack Developer.**
 
 - **Started**: May 2026
-- **Target**: Mid-level Full-Stack Developer (Next.js + TypeScript)
-- **Daily Study Time**: ~4 hours (Night)
+- **Target**: Full-Stack Developer (Next.js + TypeScript, Node.js)
+- **Daily Study Time**: ~4 hours per night
 
 ---
 
@@ -17,13 +17,13 @@ Instead of just following tutorials, I'm focusing on:
 - Building real projects from scratch
 - Improving problem-solving skills
 - Writing clean, maintainable code
-- Using AI tools effectively (without over-relying)
+- Using AI tools effectively
 
 ---
 
 ## Current Goal
 
-To become a **Mid-level Full-Stack Developer** within 8-9 months by mastering:
+To become a **Mid-level Full-Stack Developer** within 10-12 months by mastering:
 
 - Modern JavaScript & TypeScript
 - Next.js 15/16 (App Router, Server Components, Server Actions)
@@ -92,12 +92,8 @@ To become a **Mid-level Full-Stack Developer** within 8-9 months by mastering:
 
 ---
 
-## Motivation
-
-This journey is not just about learning new tools — it's about **becoming a better developer** who can think critically, solve real problems, and build high-quality applications.
-
 Even on hard days, I remind myself:  
-> "Consistency beats intensity."
+> "Consistency > Motivation"
 
 ---
 
