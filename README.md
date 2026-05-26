@@ -83,10 +83,9 @@ To become a **Mid-level Full-Stack Developer** within 10-12 months by mastering:
 ---
 
 ## Weekly Learning Logs
-
-- [Week 1](./logs/week-01.md) - Modern JavaScript Basics
-- [Week 2](./logs/week-02.md) - Array Methods & Functional Programming
-- ...
+### [Week 1](./Week-1)
+- [01-Basics](./Week-1/01-Basics/)
+- [Project Logs](./Week-1/projects/)
 
 *(I'll update weekly logs here)*
 
