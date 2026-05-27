@@ -4,7 +4,7 @@
 
 - **Started**: May 2026
 - **Target**: Full-Stack Developer (Next.js + TypeScript, Node.js)
-- **Daily Study Time**: ~4 hours per night
+- **Daily Study Time**: ~3 hours per night
 
 ---
 
