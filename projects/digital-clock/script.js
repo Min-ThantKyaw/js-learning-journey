@@ -7,7 +7,7 @@ const padZero = (num) => num.toString().padStart(2, '0');
 
 /**
  * Converts a 24-hour format hour to 12-hour format and determines the period (AM/PM).
- * @param {hour} hour 
+ * @param {hour} hour
  * @returns {hour: number, period: string}
  */
 function convertTo12Hour(hour) {
@@ -19,10 +19,11 @@ function convertTo12Hour(hour) {
 
 /**
  * Renders the time on the display.
- * @param {time} time 
+ * @param {time} time
  */
-function renderTime(time) {
+function renderTime(date,time) {
 	timeDisplay.textContent = time;
+	dateDisplay.textContent = date;
 }
 
 /**
@@ -34,6 +35,7 @@ function initializeClock() {
 	let hours = now.getHours();
 	let minutes = now.getMinutes();
 	let seconds = now.getSeconds();
+	let date = now.toLocaleDateString(undefined, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
 	let timeString = "";
 
 	if (!is24HourFormat) {
@@ -45,7 +47,7 @@ function initializeClock() {
 
 		timeString = `${padZero(hours)}:${padZero(minutes)}:${padZero(seconds)}`;
 	}
-	renderTime(timeString);
+	renderTime(date, timeString);
 }
 
 setInterval(initializeClock, 1000);
@@ -67,4 +69,40 @@ toggleFormatBtn.addEventListener('click', () => {
 	is24HourFormat = !is24HourFormat;
 	initializeClock();
 	toggleFomatButtonText();
+});
+
+
+const timerStart = document.getElementById('timerStart');
+const timerStop = document.getElementById('timerStop');
+const timerReset = document.getElementById('timerReset');
+const timerLap = document.getElementById('timerLap');
+const timerDisplay = document.getElementById('timerDisplay');
+
+let lapTimes = [];
+let ms = 0;
+let s = 0;
+let m = 0;
+let h = 0;
+
+function updateTimeCounter() {
+	setInterval(() => {
+		ms++;
+		if(ms == 100) {
+			ms = 0;
+			s++;
+		}
+		if(s == 60) {
+			s = 0;
+			m++;
+		}
+		if(m == 60) {
+			m = 0;
+			h++;
+		}
+		timerDisplay.textContent = `${h.toString().padStart(2, '0')}:${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}.${ms.toString().padStart(2, '0')}`;
+	}, 10);
+}
+
+timerStart.addEventListener('click', () => {
+	updateTimeCounter();
 });
