@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+       	<link rel="stylesheet" href="../src/output.css">
+    </head>
+    <body>
+        <section class="min-h-screen bg-slate-100 px-4 py-12">
+            <div class="mx-auto max-w-2xl">
+                <!-- Header -->
+                <div class="mb-8 text-center">
+                    <h1 class="text-3xl font-bold text-slate-900">
+                        Frequently Asked Questions
+                    </h1>
+                    <p class="mt-2 text-slate-600">
+                        Click a question to view the answer.
+                    </p>
+                </div>
+
+                <!-- Accordion Wrapper -->
+                <div class="space-y-4">
+                    <!-- Item 1 -->
+                    <div
+                        class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm"
+                    >
+                        <button
+                            type="button"
+                            data-accordion-btn
+                            class="flex w-full items-center justify-between gap-4 px-6 py-5 text-left"
+                        >
+                            <span
+                                class="text-base font-semibold text-slate-900"
+                            >
+                                What is an accordion component?
+                            </span>
+
+                            <span
+                                class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-slate-100 text-xl font-bold text-slate-600"
+                            >
+                                +
+                            </span>
+                        </button>
+
+                        <div
+                            data-accordion-content
+                            class="hidden border-t border-slate-200 px-6 py-5 text-slate-600"
+                        >
+                            <p>
+                                An accordion component displays content in
+                                expandable sections. Only one section is usually
+                                opened at a time to keep the interface clean.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div
+                        class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm"
+                    >
+                        <button
+                            type="button"
+                            data-accordion-btn
+                            class="flex w-full items-center justify-between gap-4 px-6 py-5 text-left"
+                        >
+                            <span
+                                class="text-base font-semibold text-slate-900"
+                            >
+                                Why should I use an accordion?
+                            </span>
+
+                            <span
+                                class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-slate-100 text-xl font-bold text-slate-600"
+                            >
+                                +
+                            </span>
+                        </button>
+
+                        <div
+                            data-accordion-content
+                            class="hidden border-t border-slate-200 px-6 py-5 text-slate-600"
+                        >
+                            <p>
+                                It helps organize long content into smaller
+                                sections, making the page easier to read and
+                                reducing visual clutter.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div
+                        class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm"
+                    >
+                        <button
+                            type="button"
+                            data-accordion-btn
+                            class="flex w-full items-center justify-between gap-4 px-6 py-5 text-left"
+                        >
+                            <span
+                                class="text-base font-semibold text-slate-900"
+                            >
+                                Can only one item be opened at a time?
+                            </span>
+
+                            <span
+                                class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-slate-100 text-xl font-bold text-slate-600"
+                            >
+                                +
+                            </span>
+                        </button>
+
+                        <div
+                            data-accordion-content
+                            class="hidden border-t border-slate-200 px-6 py-5 text-slate-600"
+                        >
+                            <p>
+                                Yes. With JavaScript, you can close all other
+                                sections first, then open only the clicked
+                                section.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div
+                        class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm"
+                    >
+                        <button
+                            type="button"
+                            data-accordion-btn
+                            class="flex w-full items-center justify-between gap-4 px-6 py-5 text-left"
+                        >
+                            <span
+                                class="text-base font-semibold text-slate-900"
+                            >
+                                Is this design responsive?
+                            </span>
+
+                            <span
+                                class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-slate-100 text-xl font-bold text-slate-600"
+                            >
+                                +
+                            </span>
+                        </button>
+
+                        <div
+                            data-accordion-content
+                            class="hidden border-t border-slate-200 px-6 py-5 text-slate-600"
+                        >
+                            <p>
+                                Yes. The layout uses Tailwind utility classes
+                                and works well on mobile, tablet, and desktop
+                                screens.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+	<script src="./script.js"></script>
+</html>
