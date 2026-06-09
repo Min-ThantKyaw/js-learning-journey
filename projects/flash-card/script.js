@@ -37,7 +37,22 @@ function updateCard() {
 
 uiElements.showAnswerBtn.addEventListener("click", () => {
 	isAnswerVisible = !isAnswerVisible;
+	console.log(isAnswerVisible);
 	updateCard();
 });
+console.log(isAnswerVisible);
+uiElements.nextBtn.addEventListener("click", () =>{
+	isAnswerVisible = false;
+	currentIndex += 1;
+	updateCard();
+});
+
+if(currentIndex >= 0) {
+	uiElements.prevBtn.addEventListener("click", () => {
+		isAnswerVisible = false;
+		currentIndex -= 1;
+		updateCard();
+	});
+}
 
 loadQuestions();
