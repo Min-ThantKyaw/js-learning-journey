@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "category": "Sports & E-sports",
+    "question": "FIFA World Cup ဖလားကို အကြိမ်အများဆုံး ဗိုလ်စွဲထားတဲ့ နိုင်ငံက ဘယ်နိုင်ငံလဲ?",
+    "correctAnswer": "Brazil"
+  },
+  {
+    "id": 2,
+    "category": "Sports & E-sports",
+    "question": "အမေရိကန် နာမည်ကြီး ဘတ်စကတ်ဘော လိဂ်ဖြစ်တဲ့ NBA ရဲ့ စကားလုံးအပြည့်အစုံက ဘာလဲ?",
+    "correctAnswer": "National Basketball Association"
+  },
+  {
+    "id": 3,
+    "category": "Sports & E-sports",
+    "question": "အိုလံပစ် (Olympic) အလံမှာ ပါဝင်တဲ့ ကွင်း (Rings) အရေအတွက် စုစုပေါင်း ဘယ်နှကွင်း ရှိလဲ?",
+    "correctAnswer": "5"
+  },
+  {
+    "id": 4,
+    "category": "Sports & E-sports",
+    "question": "ကမ္ဘာကျော် ဘောလုံးသမား Cristiano Ronaldo ဝတ်ဆင်လေ့ရှိတဲ့ အိုင်ကွန်နစ် ကျောနံပါတ်က ဘယ်လောက်လဲ?",
+    "correctAnswer": "No. 7"
+  },
+  {
+    "id": 5,
+    "category": "Sports & E-sports",
+    "question": "Shuttlecock လို့ခေါ်တဲ့ ကြက်တောင်လေးကို သုံးပြီး ကစားရတဲ့ အားကစားနည်းက ဘာလဲ?",
+    "correctAnswer": "Badminton"
+  }
+]
