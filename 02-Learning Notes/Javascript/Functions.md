@@ -63,3 +63,73 @@ const greet = () => {
 
 const add = (a, b) => a + b;
 ```
+
+
+# Callback Functions
+- A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete a routine or action.Becasue functions are "first-class citizens" in javascript, they can be treated like any other variable and passed around freely.
+
+```jsx
+makePizza(() => {
+	console.log("Pizza ready");
+});
+
+makePizza(callback){
+	console.log("Making Pizza");
+	callback();
+}
+
+//Event Listener
+button.addEventListener("click", () => {
+	console.log("Button Clicked");
+});
+//()=>{} this is callback
+```
+
+## Synchronous Callback
+
+``` jsx
+function process(callback){
+	console.log("Start");
+	callback();
+	console.log("End");
+}
+
+process(() => {
+	console.log("running");
+});
+```
+---
+## Asynchronous Callback
+
+```jsx
+console.log("1");
+setTimeout(() => {
+	console.log("2");
+}, 1000);
+console.log("3");
+```
+---
+## Callback Hell
+```jsx
+login(user, () => {
+
+    getProfile(() => {
+
+        getPosts(() => {
+
+            getComments(() => {
+
+                console.log("Done");
+
+            });
+
+        });
+
+    });
+
+});
+```
+
+---
+## Higher Order Functions(HOF)
+
