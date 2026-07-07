@@ -1,4 +1,4 @@
-**function is a reusable code block that performs a specific task.**
+**Function is a reusable code block that performs a specific task.**
 
 
 # Function Declaration
@@ -67,6 +67,7 @@ const add = (a, b) => a + b;
 
 # Callback Functions
 - A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete a routine or action.Becasue functions are "first-class citizens" in javascript, they can be treated like any other variable and passed around freely.
+- Callback Function ဆိုတာ Function တစ်ခုဆီကို Argumentအဖြစ် ပို့ပေးလိုက်တဲ့ Function ဖြစ်ပြီး HOF ဆိုတာ Function ကို Parameter အဖြစ်လက်ခံတာ ဒါမှမဟုတ် Function ကို return ပြန်တဲ့ Function ဖြစ်တယ်။
 
 ```jsx
 makePizza(() => {
@@ -133,3 +134,8 @@ login(user, () => {
 ---
 ## Higher Order Functions(HOF)
 
+Functionတစ်ခုက
+- Function ကို Parameter အဖြစ်လက်ခံရင်
+- Function ကို return ပြန်ရင်
+HOFဖြစ်တယ်။
+Function လက်ခံတဲ့ function က HOFဖြစ်ပြီး Parameterဖြစ်တဲ့ Function က callback function ဖြစ်တယ်။

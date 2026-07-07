@@ -26,6 +26,3 @@ element.addEventListener('event', function, useCapture(optional));
 # Docment Object Model(DOM)
 
 **DOM represents the structure of a webpage as a tree of objects.A selector is a query of pattern used to target and retrieve specific HTML elements within the DOM.**
-
-
-[Learn Later]()
