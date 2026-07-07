@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "c96ee271c45b4309",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "02-Learning Notes/Javascript/Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Functions"
-            }
-          },
-          {
-            "id": "74043391b79423e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-DailyPlan/2026-06-17.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-06-17"
             }
           }
         ],
@@ -198,44 +198,44 @@
       "bases:Create new base": false
     }
   },
-  "active": "74043391b79423e7",
+  "active": "c96ee271c45b4309",
   "lastOpenFiles": [
-    "01-DailyPlan/2026-06-16.md",
+    "00-Milestones/RoadMap.md",
+    "00-RoadMap/RoadMap.md",
+    "00-RoadMap",
     "02-Learning Notes/Javascript/Functions.md",
+    "02-Learning Notes/Javascript/Variables.md",
     "02-Learning Notes/Javascript/WebAPI.md",
-    "01-DailyPlan/2025-06-15.md",
-    "00-Milestones/Foundation.md",
-    "Dashboard.md",
+    "02-Learning Notes/Javascript/Closure.md",
+    "02-Learning Notes/Javascript/Asynchronous Programming.md",
+    "Daily For Work.md",
     "README.md",
+    "Dashboard.md",
+    "02-Learning Notes/Terraform/Basic.md",
+    "01-DailyPlan/2026-06-23.md",
+    "01-DailyPlan/2026-06-22.md",
+    "03-Projects/counter/refactor.md",
+    "02-Learning Notes/Terraform",
+    "Untitled",
+    "01-DailyPlan/2026-06-16.md",
+    "01-DailyPlan/2025-06-15.md",
+    "2026-06-18.md",
     "03-Projects/todo-spec.md",
     "03-Projects/accordion/implement-note.md",
-    "02-Learning Notes/Javascript/Variables.md",
-    "01-DailyPlan/2026-06-17.md",
     "02-Learning Notes/TypeScript",
     "03-Projects/Weather-API/README.md",
     "00-Milestones",
-    "03-Projects/counter/refactor.md",
     "03-Projects/tailwind.config.js",
     "03-Projects/package-lock.json",
     "03-Projects/package.json",
     "03-Projects/todo-list/skills-lock.json",
     "03-Projects/todo-list/script.js",
-    "03-Projects/todo-list/index.html",
-    "03-Projects/todo-list",
-    "03-Projects/src/output.css",
     "03-Projects/node_modules/node-addon-api/tools/README.md",
     "03-Projects/node_modules/@tailwindcss/oxide-win32-x64-msvc/README.md",
     "03-Projects/node_modules/@tailwindcss/node/README.md",
     "03-Projects/node_modules/@tailwindcss/cli/README.md",
     "03-Projects/node_modules/@parcel/watcher-win32-x64/README.md",
     "03-Projects/node_modules/@parcel/watcher/README.md",
-    "03-Projects/node_modules/@jridgewell/trace-mapping/README.md",
-    "03-Projects/node_modules/@jridgewell/sourcemap-codec/README.md",
-    "03-Projects/node_modules/@jridgewell/resolve-uri/README.md",
-    "03-Projects/node_modules/@jridgewell/remapping/README.md",
-    "03-Projects/node_modules/@jridgewell/gen-mapping/README.md",
-    "03-Projects/node_modules/tapable/README.md",
-    "03-Projects/node_modules/tailwindcss/README.md",
     "Pasted image 20260615175734.png"
   ]
 }
