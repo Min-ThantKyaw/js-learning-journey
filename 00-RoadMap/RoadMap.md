@@ -22,7 +22,7 @@ Goal: Understand JavaScript deeply. No frameworks yet.
 
 ### Week 1: Language Foundations
 
-#### Day 1: Setup and Variables
+#### Day 1: Variables
 - [ ] Review `let`, `const`, `var`
 - [ ] Practice: declare variables for a user profile (name, age, isActive, role)
 - [ ] Learn strict mode
