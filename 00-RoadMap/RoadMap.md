@@ -22,7 +22,7 @@ Goal: Understand JavaScript deeply. No frameworks yet.
 
 ### Week 1: Language Foundations
 
-#### Day 1: Setup and Variables
+#### Day 1: Variables
 - [ ] Review `let`, `const`, `var`
 - [ ] Practice: declare variables for a user profile (name, age, isActive, role)
 - [ ] Learn strict mode
@@ -69,10 +69,10 @@ Goal: Understand JavaScript deeply. No frameworks yet.
 ### Week 2: Arrays, Objects, and Modern Syntax
 
 #### Day 8: Arrays Basics
-- [ ] Creating arrays
-- [ ] Accessing and modifying items
-- [ ] `push`, `pop`, `shift`, `unshift`, `splice`, `slice`
-- [ ] Practice: manage a to-do list array
+- [x] Creating arrays
+- [x] Accessing and modifying items
+- [x] `push`, `pop`, `shift`, `unshift`, `splice`, `slice`
+- [x] Practice: manage a to-do list array
 
 #### Day 9: Array Methods Part 1
 - [ ] `forEach`, `map`, `filter`, `find`, `findIndex`
