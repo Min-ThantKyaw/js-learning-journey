@@ -32,3 +32,12 @@ new Array();
 - **`pop()`:** Array ၏ **အနောက်ဆုံး**မှ Data တစ်ခုကို ဖယ်ထုတ်သည်။
 - **`unshift()`:** Array ၏ **အရှေ့ဆုံး**သို့ Data အသစ် ထည့်သည်။
 - **`shift()`:** Array ၏ **အရှေ့ဆုံး**မှ Data တစ်ခုကို ဖယ်ထုတ်သည်။
+
+### filter()
+- filterက new array matching elementsတွေကို new arrayအနေနဲ့ return ပြန်ပေးတယ်။
+```jsx
+let result = arr.filter(function(item, index, array){
+	//if true item is pushed to results and the iteration continues
+	//return empty array if nothing found
+})
+```
