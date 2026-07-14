@@ -41,3 +41,8 @@ let result = arr.filter(function(item, index, array){
 	//return empty array if nothing found
 })
 ```
+
+### array.at(-1)
+- get the last element of an array
+
+Arrays/Internal
