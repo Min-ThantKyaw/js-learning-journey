@@ -33,16 +33,3 @@ new Array();
 - **`unshift()`:** Array ၏ **အရှေ့ဆုံး**သို့ Data အသစ် ထည့်သည်။
 - **`shift()`:** Array ၏ **အရှေ့ဆုံး**မှ Data တစ်ခုကို ဖယ်ထုတ်သည်။
 
-### filter()
-- filterက new array matching elementsတွေကို new arrayအနေနဲ့ return ပြန်ပေးတယ်။
-```jsx
-let result = arr.filter(function(item, index, array){
-	//if true item is pushed to results and the iteration continues
-	//return empty array if nothing found
-})
-```
-
-### array.at(-1)
-- get the last element of an array
-
-Arrays/Internal
