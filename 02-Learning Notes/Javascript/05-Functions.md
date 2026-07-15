@@ -1,22 +1,47 @@
-**Function is a reusable code block that performs a specific task.**
-
+`Function is a reusable code block that performs a specific task.`
 
 # Function Declaration
 
 ```jsx
 //Function Declaration
 function sayHello() {
-    console.log("Hello");
+	//A variable decalred inside a function is only visible inside the function.
+	let message = "world";
+    console.log("Hello ${message}");
 }
 
-sayHello(); //Function execution
+sayHello(); //Function call(execution)
 ```
 
-Function declaration မှာ function declareရဲ့အပေါ်မှာ function callလို့ရတယ်။Hoistingလို့ခေါ်တယ်။
+`Function declaration မှာ function declareရဲ့အပေါ်မှာ function callလို့ရတယ်။Hoistingလို့ခေါ်တယ်။`
+## Parameters
+```jsx
+function showMessage (from, text) { // parameters: from, text
+ alert(from);
+ }
+ 
+ //When a value is passed as a function parameter, it's also called ana argument.
+ showMessage('Ann', 'Hello!'); // Ann: Hello! (*)
+ showMessage('Ann', "What's up?"); // Ann: What's up? (**)
+```
 
+## Default Value
+```jsx
+function showMessage (from, text = "Hello") { // text contains 
+ alert(from + text);
+ }
+ 
+ .
+ showMessage('Ann'); //Anns:Hello
+ showMessage('Ann', "What's up?");//Ann What's up?
+```
+
+## Returning a value
+`A function can return a value back into the calling code as the result.`
+`A function witn an empty return or without it returns undefined.`
 # Function Expression
 
-Function expression is a function that stores a function in a variable.
+`Function expression is a function that stores a function in a variable.`
 
 ```jsx
 const sayHello = function () {
