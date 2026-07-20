@@ -74,35 +74,26 @@ Goal: Understand JavaScript deeply. No frameworks yet.
 - [x] `push`, `pop`, `shift`, `unshift`, `splice`, `slice`
 - [x] Practice: manage a to-do list array
 
-#### Day 9: Array Methods Part 1
-- [ ] `forEach`, `map`, `filter`, `find`, `findIndex`
-- [ ] Practice: transform a list of products into prices
-- [ ] Practice: filter active users from a list
+#### Day 9: Array Methods
+- [x] `forEach`, `map`, `filter`, `find`, `findIndex`
+- [ ] `reduce`, `some`, `every`, `includes`, `sort`ctice: transform a list of products into prices
 
-#### Day 10: Array Methods Part 2
-- [ ] `reduce`, `some`, `every`, `includes`, `sort`
-- [ ] Practice: calculate total cart value
-- [ ] Practice: check if all users are verified
-
-#### Day 11: Objects Deep Dive
+#### Day 10: Objects Deep Dive
 - [ ] Creating and accessing objects
 - [ ] Dot vs bracket notation
 - [ ] Object methods and `this`
-- [ ] Practice: build a user object with methods
 
-#### Day 12: Object Manipulation
+#### Day 11: Object Manipulation
 - [ ] `Object.keys`, `Object.values`, `Object.entries`
 - [ ] Object spreading and copying
-- [ ] Practice: convert object to array and back
 
-#### Day 13: Destructuring, Spread, and Rest
+#### Day 12: Destructuring, Spread, and Rest
 - [ ] Array destructuring
 - [ ] Object destructuring
 - [ ] Spread operator
 - [ ] Rest parameters
-- [ ] Practice: refactor old code using destructuring
 
-#### Day 14: Weekly Mini Project
+#### Day 13: Weekly Mini Project
 - [ ] Build a **Product Inventory Manager**
   - Add product
   - Remove product
