@@ -25,4 +25,7 @@
 *JS execution threadရဲ့ အပြင်မှာ completeဖြစ်ဖို့ အချိန်ယူရတဲ့ Asynchronous operation တွေတိုင်းမှာ Promisesသုံး*
 
 ---
-### Important
+### Importan
+- -
+- -
+- -
