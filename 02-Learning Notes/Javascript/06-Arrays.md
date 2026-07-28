@@ -1,40 +1,19 @@
 # Arrays
 `In javascript, Array is not a primitive Data Type.It is a Object.`
 
-## Creating array
-- using array constructor
-```jsx
-// predefine length
-//not same new Array('5')
-new Array(5)
-
-
-//insert elements directly
-new Array(1,2,3)
-
-//empty array []
-new Array();
-```
-
-- Using Array Literal []
-	```jsx
-	const fruits = ["apple", "mango"];
-	```
-- Using Array.of()
-	```jsx
-	//constructorနဲ့မတူဘူး ထည့်သမျှ parameterတိုင်းကို elementအဖြစ်ပြောင်းတယ်။
-	const items = Array.of(5) // [5]
-	```
-
 ## Array methods
 
 - **`push()`:** Array ၏ **အနောက်ဆုံး**သို့ Data အသစ် ထည့်သည်။
 - **`pop()`:** Array ၏ **အနောက်ဆုံး**မှ Data တစ်ခုကို ဖယ်ထုတ်သည်။
 - **`unshift()`:** Array ၏ **အရှေ့ဆုံး**သို့ Data အသစ် ထည့်သည်။
 - **`shift()`:** Array ၏ **အရှေ့ဆုံး**မှ Data တစ်ခုကို ဖယ်ထုတ်သည်။
-### Array.prorotype.filter()
-
+### Array.prototype.filter()
 `condition နဲ့ ညီတဲ့ new arrayတစ်ခုကို return ပြန်တယ်။falseဖြစ်ရင် []ကို return ပြန်တယ််။Original arrayကို changesမလုပ်`
+
+### Array.prototype.findIndex()
+`The JavaScript Array.prototype.findIndex() method returns the index of the first element in an array that satisfies a provided testing function. If no elements pass the test, it returns -1.`
+
+
 
 
 
