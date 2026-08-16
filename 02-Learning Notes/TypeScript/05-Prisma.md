@@ -1,5 +1,5 @@
 # Defining Fields
-*Model တစ်ခုရဲ့ Property(Fileds)တွေ ဘယ်လို သတ်မှတ်မလဲ။*
+*Model တစ်ခုရဲ့ Property(Fields)တွေ ဘယ်လို သတ်မှတ်မလဲ။*
 
 - Field name
 - Field type
